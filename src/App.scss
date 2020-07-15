@@ -1,0 +1,122 @@
+@font-face {
+  src: url("./fonts/Roboto-Thin.ttf");
+  font-family: "Roboto";
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  src: url("./fonts/Roboto-ThinItalic.ttf");
+  font-family: "Roboto";
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  src: url("./fonts/Roboto-Light.ttf");
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  src: url("./fonts/Roboto-LightItalic.ttf");
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  src: url("./fonts/Roboto-Regular.ttf");
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  src: url("./fonts/Roboto-Medium.ttf");
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  src: url("./fonts/Roboto-MediumItalic.ttf");
+  font-family: "Roboto";
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  src: url("./fonts/Roboto-Bold.ttf");
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  src: url("./fonts/Roboto-BoldItalic.ttf");
+  font-family: "Roboto";
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  src: url("./fonts/Roboto-Black.ttf");
+  font-family: "Roboto";
+  font-weight: 900;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #ccc;
+  font-size: 1.65rem;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+input {
+  font-size: 1.67rem;
+}
+
+// Specific styles For App Component
+
+@keyframes rotate-linear {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+.logo-img {
+  width: 10rem;
+  margin-top: 4rem;
+  animation: rotate-linear forwards 5s linear infinite;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-color: #444;
+  color: #fafafa;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom {
+  margin-top: 3rem;
+  text-align: center;
+
+  & span a {
+    text-decoration: underline;
+  }
+}
