@@ -14,7 +14,7 @@ export const App = () => (
         <p className="bottom">
           Prepaired by&nbsp;{" "}
           <span>
-            <a href="https://github.com/junaid-pak/">Junaid</a>
+            <a href="https://github.com/jj-softeng/">Junaid</a>
           </span>
         </p>
       </div>
