@@ -21,7 +21,7 @@ module.exports = {
         use: ["babel-loader"],
       },
       {
-        test: /\.(png|jpg|jpeg|giff|svg)$/,
+        test: /\.(png|jpg|jpeg|giff|svg|ico)$/,
         use: ["file-loader"],
       },
       {
@@ -49,6 +49,7 @@ module.exports = {
       cleanOnceBeforeBuildPatterns: ["**/*"],
     }),
     new htmlWebpackPlugin({
+      favicon: "./public/favicon.ico",
       template: "./public/index.html",
       filename: "index.html",
     }),

@@ -24,6 +24,8 @@ npm run build
 
 this will minify and bundle / compile / transpile modern ES6 to old version of Ecmascript so that all major browser could support / run this App.
 
+To set a custom favicon make sure to replace **favicon.ico** from **public** directory before building the project or after building the project replace **favicon.ico** from the build folder.
+
 ## Note
 
 make sure you have npm installed in your system otherwise these commands would not work.
