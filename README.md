@@ -10,11 +10,11 @@ this project is a simplified and mini version of **create-react-app** with build
 
 To Start Development mode, simply download or clone the repo. then start development work flow by typing this npm command in the terminal.
 
-```bash
+```npm
 npm start
 ```
 
-this will open a development server on localhost port 300. by the way you can also change the port, open \*\*webpack.config.js file find the port 300 and change into what ever you like.
+this will open a development server on localhost port 300. by the way you can also change the port, open **webpack.config.js** file find the port 300 and change into what ever you like.
 
 For making production bundle simply type this command in the terminal.
 
